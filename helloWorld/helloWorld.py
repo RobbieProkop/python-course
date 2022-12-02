@@ -36,8 +36,8 @@
 # print(name + " is " + age + " years old")
 
 # Operators
-# a=12 
-# b=3
+a=12 
+b=3
 # print(a/b) #returns a float
 # print(a//b) #returns an integer
 # print(a%b) #remainder after integer division
@@ -50,3 +50,27 @@
 # for i in range(1, a//b): #successfull operation
 #   print(i)
 
+#  Operator Precedence
+# print(a+b/3-4*12) # this equals -35.0. DIvision and multiplicaiton are more important.
+# b / 3 = 1.0
+# 4*12 = 48
+#  12 + 1.0 - 48 = -35.0
+
+# print(a +(b/3) - (4*12)) # this also equals -35.0
+
+# print(((a+b)/3 -4) * 12)
+
+# c = a+b
+# d= c/3
+# e = d-4
+# print(e*12)
+
+# print(a / (b*a) / b)
+
+# parrot = "Parrot Parrot"
+# print(parrot)
+# print(parrot[3])
+
+result = "we win"
+for i in result:
+  print(i)
