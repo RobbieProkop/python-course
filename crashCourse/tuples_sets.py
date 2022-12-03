@@ -31,15 +31,19 @@ fruits_set= {"Apples", "Bananas", "Mangos"}
 # check if in set
 print("Apples" in fruits_set)
 
-# Add to set to beginning
+# Add to set 
 fruits_set.add("Grape")
 
+# Add Duplicate - it cannot be done
+fruits_set.add("Apples")
+fruits_set.add("Apples")
+
 # remove from set
-fruits_set.remove("Grape")
+# fruits_set.remove("Grape")
 
 
 # clear set entirely
-fruits_set.clear()
+# fruits_set.clear()
 
-del fruits_set
+# del fruits_set
 print(fruits_set)
